@@ -213,8 +213,8 @@ input[type=submit]:active {
 /*-----------------------------------------------*/
 
 header {
-    background-image: url(img/hero5.jpg);
-    background-image: url(img/hero5.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(img/hero1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(img/hero1.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -224,16 +224,16 @@ header {
 .hero-text-box {
     position: absolute;
     width: 1140px;
-    top: 50%;
-    left: 50%;
+    top: 40%;
+    left: 42%;
     -webkit-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
-}
+}   
 
-/*
+
 
 .logo {
-    height: 100px;
+    height: 50px;
     width: auto;
     float: left;
     margin-top: 20px;
@@ -247,7 +247,13 @@ header {
     margin: 5px 0;
 }
 
-/
+.scanme {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin-top: 10px;
+}
 
 
 /*-----------------------------------------------*/
@@ -268,7 +274,7 @@ header {
 .main-nav li a:link, 
 .main-nav li a:visited {
     padding: 8px 0;
-    color: black;
+    color: white;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 90%;
@@ -320,12 +326,9 @@ header {
 }
 
 
-/*
-
 .sticky .logo { display: none; }
 .sticky .logo-black { display: block; }
 
-/
 
 /*-----------------------------------------------*/
 /* FEATURES*/
