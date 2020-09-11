@@ -224,10 +224,10 @@ header {
 .hero-text-box {
     position: absolute;
     width: 1140px;
-    top: 40%;
-    left: 42%;
+    top: 50%;
+    left: 50%;
     -webkit-transform: translate(-50%,-50%);
-    transform: translate(-50%,-50%);
+    transform: translate(-60%,-60%);
 }   
 
 
@@ -249,10 +249,11 @@ header {
 
 .scanme {
     position: absolute;
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 100px;
     float: left;
     margin-top: 10px;
+    margin-left: 9%;
 }
 
 
@@ -263,12 +264,12 @@ header {
 .main-nav {
     float: right;
     list-style: none;
-    margin-top: 55px;
+    margin-top: 50px;
 }
 
 .main-nav li {
     display: inline-block;
-    margin-left: 40px;
+    margin-left: 20px;
 }
 
 .main-nav li a:link, 
